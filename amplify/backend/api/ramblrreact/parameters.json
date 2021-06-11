@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "ramblrreact",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authramblrreactb57ea5e1b57ea5e1",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

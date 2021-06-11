@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ramblrreact-dev-125357-authRole",
+      "UnauthRoleArn": "arn:aws:iam::073566067275:role/amplify-ramblrreact-dev-125357-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::073566067275:role/amplify-ramblrreact-dev-125357-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-ramblrreact-dev-125357-deployment",
+      "UnauthRoleName": "amplify-ramblrreact-dev-125357-unauthRole",
+      "StackName": "amplify-ramblrreact-dev-125357",
+      "StackId": "arn:aws:cloudformation:eu-west-2:073566067275:stack/amplify-ramblrreact-dev-125357/b5d36300-caab-11eb-9048-02f7a7183cbe",
+      "AmplifyAppId": "d32d9y4lepml5l"
+    },
+    "categories": {
+      "function": {
+        "ramblrreactb57ea5e1b57ea5e1PostConfirmation": {
+          "deploymentBucketName": "amplify-ramblrreact-dev-125357-deployment",
+          "s3Key": "amplify-builds/ramblrreactb57ea5e1b57ea5e1PostConfirmation-37377065784c42335973-build.zip"
+        }
+      },
+      "auth": {
+        "ramblrreactb57ea5e1b57ea5e1": {}
+      }
+    }
+  }
+}
