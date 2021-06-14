@@ -15,7 +15,7 @@
       "function": {
         "ramblrreactb57ea5e1b57ea5e1PostConfirmation": {
           "deploymentBucketName": "amplify-ramblrreact-dev-125357-deployment",
-          "s3Key": "amplify-builds/ramblrreactb57ea5e1b57ea5e1PostConfirmation-37377065784c42335973-build.zip"
+          "s3Key": "amplify-builds/ramblrreactb57ea5e1b57ea5e1PostConfirmation-64424c2f52416a72655a-build.zip"
         }
       },
       "auth": {

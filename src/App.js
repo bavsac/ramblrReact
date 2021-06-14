@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import Amplify from 'aws-amplify';
-import config from './aws-exports';
-import { withAuthenticator } from '@aws-amplify/ui-react';
+import awsmobile from './aws-exports';
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 
-Amplify.configure(config);
+Amplify.configure(awsmobile);
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <header className='App-header'>
         <img src={logo} className='App-logo' alt='logo' />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          trying to change things up.
         </p>
         <a
           className='App-link'
@@ -23,6 +23,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <AmplifySignOut/>
     </div>
   );
 }
